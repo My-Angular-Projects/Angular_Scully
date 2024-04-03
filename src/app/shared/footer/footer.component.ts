@@ -7,5 +7,5 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class FooterComponent {
-  public currentDate = new Date();
+  public readonly currentDate = new Date();
 }
